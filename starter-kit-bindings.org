@@ -200,7 +200,9 @@ Use a little bit of Mac keys, but not all of them.
 #+source: mackeys1
 #+begin_src emacs-lisp
 (require 'redo+) 
-(setq mac-command-modifier 'alt mac-option-modifier 'meta)
+;;(setq mac-command-modifier 'alt mac-option-modifier 'meta)
+(setq mac-option-modifier 'nil)
+(setq mac-command-modifier 'meta)
 (global-set-key [(alt a)] 'mark-whole-buffer)
 (global-set-key [(alt v)] 'yank)
 (global-set-key [(alt c)] 'kill-ring-save)
