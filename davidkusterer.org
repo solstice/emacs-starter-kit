@@ -175,8 +175,8 @@ In dired mode, visit all marked files using. Bound to the "F" key.
 
 #+source: smart-quotes
 #+begin_src emacs-lisp
-  (setq TeX-open-quote "“")
-  (setq TeX-close-quote "”")
+;;  (setq TeX-open-quote "“")
+;;  (setq TeX-close-quote "”")
 #+end_src
 
 *** SyncTeX, PDF mode, Skim
